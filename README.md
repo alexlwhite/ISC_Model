@@ -1,6 +1,6 @@
 # ISC_Model
 Data and Matlab code for the "Independent Systems with Competition" (ISC) model from White, Rolfs and Carrasco (2015)
-Running the script RunISCModel will load in real data, and generate predicted d' levels using the function ISCModel. 
+Running the script RunISCModel will load in real data, and generate predicted d' levels using the function ISCModel. It saves the predictions in a mat file ISCModelFit_{date} and makes a figure DataWithISCModelPreds.eps. 
 
 The real psychophysical data are contained in the Matlab file FBAxSADPrimes.mat
 matrices X1Ds and X2Ds, of d' accuracy measures.
